@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "create_empty_package",
+  "version": "${version}",
+  "name": "Create: Empty Package",
+  "description": "Allows the Create Fly packager to produce a package with empty contents when its target is air, is not a container, or is an empty container.",
+  "authors": [
+    "Aether_254"
+  ],
+  "environment": "*",
+  "mixins": [
+    "create_empty_package.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "create": ">=6.0.9-5"
+  }
+}
